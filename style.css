@@ -47,7 +47,8 @@ body {
 }
 
 .panel.active h3 {
-    transition: 3.5s;
+    transition: 1.5s;
+    transition-delay: 0.5s;
     opacity: 1;
 }
 
