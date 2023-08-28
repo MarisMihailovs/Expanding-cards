@@ -7,10 +7,81 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     height: 100vh;
     margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.5s ease-in;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    transition: 3.5s;
+    opacity: 1;
+}
+
+#panel1 {
+    background-image: url(/slide_thewall_biz_2.jpg);
+}
+
+#panel2 {
+    background-image: url(/Samsung_Atta_Main-25.jpg);
+}
+
+#panel3 {
+    background-image: url(/IMG-20220914-WA0016.jpg);
+}
+
+#panel4 {
+    background-image: url(/Samsung_Atta_Main-4.jpg);
+}
+
+#panel5 {
+    background-image: url(/20230331_160039.jpg);
+}
+
+#panel6 {
+    background-image: url(/31_Formal_Biz_01_0129_v2.JPG);
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw;
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    }
 }
