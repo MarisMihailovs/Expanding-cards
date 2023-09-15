@@ -53,27 +53,27 @@ body {
 }
 
 #panel1 {
-    background-image: url(/slide_thewall_biz_2.jpg);
+    background-image: url('slide_thewall_biz_2.jpg');
 }
 
 #panel2 {
-    background-image: url(/Samsung_Atta_Main-25.jpg);
+    background-image: url('Samsung_Atta_Main-25.jpg');
 }
 
 #panel3 {
-    background-image: url(/IMG-20220914-WA0016.jpg);
+    background-image: url('IMG-20220914-WA0016.jpg');
 }
 
 #panel4 {
-    background-image: url(/Samsung_Atta_Main-4.jpg);
+    background-image: url('Samsung_Atta_Main-4.jpg');
 }
 
 #panel5 {
-    background-image: url(/20230331_160039.jpg);
+    background-image: url('20230331_160039.jpg');
 }
 
 #panel6 {
-    background-image: url(/31_Formal_Biz_01_0129_v2.JPG);
+    background-image: url('31_Formal_Biz_01_0129_v2.JPG');
 }
 
 @media (max-width: 480px) {
